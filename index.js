@@ -116,7 +116,6 @@ const getSinglePost = async (table, keyObj) => {
     console.log(err);
   }
 };
-
 // getSinglePost('Posts', { postId: 'FPbCFAvNoKWinPadsNBoW' });
 
 // Function to update the post based on postId
@@ -137,9 +136,8 @@ const updatePost = async (postId, title, content) => {
     console.log(err);
   }
 };
-
 // updatePost(
-//   'FPbCFAvNoKWinPadsNBoW',
+//   'UduchKnZN3boFSyPrASDz',
 //   'Update sample post title',
 //   'Updated content'
 // );
@@ -168,5 +166,4 @@ const deletePost = async (postId) => {
     console.log(err);
   }
 };
-
-// deletePost('FPbCFAvNoKWinPadsNBoW');
+// deletePost('UduchKnZN3boFSyPrASDz');
