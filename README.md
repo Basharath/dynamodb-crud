@@ -34,7 +34,9 @@ insertPost(
 
 ### Get all posts using table name
 
-`getAllPosts('Posts');`
+```
+getAllPosts('Posts');
+```
 
 Result:
 
@@ -64,7 +66,9 @@ Result:
 
 ### Get single post by postId
 
-`getSinglePost('Posts', { postId: 'UduchKnZN3boFSyPrASDz' });`
+```
+getSinglePost('Posts', { postId: 'UduchKnZN3boFSyPrASDz' });
+```
 
 Result:
 
@@ -82,13 +86,17 @@ Result:
 
 ## Update a post by `postId` (U)
 
-`updatePost( 'UduchKnZN3boFSyPrASDz', 'Update sample post title', 'Updated content' );`
+```
+updatePost( 'UduchKnZN3boFSyPrASDz', 'Update sample post title', 'Updated content' );
+```
 
 ---
 
 ## Delete a post by `postId` (D)
 
-`deletePost('UduchKnZN3boFSyPrASDz');`
+```
+deletePost('UduchKnZN3boFSyPrASDz');
+```
 
 ```js
 {
