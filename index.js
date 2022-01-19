@@ -137,7 +137,7 @@ const updatePost = async (postId, title, content) => {
   }
 };
 // updatePost(
-//   'UduchKnZN3boFSyPrASDz',
+//   'FPbCFAvNoKWinPadsNBoW',
 //   'Update sample post title',
 //   'Updated content'
 // );
@@ -166,4 +166,4 @@ const deletePost = async (postId) => {
     console.log(err);
   }
 };
-// deletePost('UduchKnZN3boFSyPrASDz');
+// deletePost('FPbCFAvNoKWinPadsNBoW');

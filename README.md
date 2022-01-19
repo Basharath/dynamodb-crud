@@ -1,5 +1,7 @@
 # DynamoDB CRUD operations
 
+For detailed explanation follow up [DynamoDB NodeJS crud operations guide](https://devapt.com/dynamodb-nodejs-crud)
+
 ## Create a table
 
 Creating a table named `Posts` with primary key `postId`
@@ -87,7 +89,11 @@ Result:
 ## Update a post by `postId` (U)
 
 ```js
-updatePost( 'UduchKnZN3boFSyPrASDz', 'Update sample post title', 'Updated content' );
+updatePost(
+  'UduchKnZN3boFSyPrASDz',
+  'Update sample post title',
+  'Updated content'
+);
 ```
 
 ---
